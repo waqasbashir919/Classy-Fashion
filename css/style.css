@@ -222,12 +222,12 @@
                                 /*Section 4*/
 
 .section-4{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/assets/section4\ \ bg.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('section-4\ bg.jpeg');
+    height: 80vh;
     min-height: 80vh;
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .section-4 .row{
     padding-top: 9%;
@@ -283,7 +283,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     opacity: 0;
     transition: opacity 1s;
 }
@@ -308,9 +308,9 @@
     padding: 5% 2% 2% !important;
 }
 .section-6 .footer-heading{
-    margin: 5% 0;
+    margin: 2% 0;
     color: whitesmoke;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 .section-6 .footer_ul{
@@ -319,6 +319,8 @@
 .section-6 .footer_li{
     list-style: none;
     margin-bottom: 5%;
+    border-bottom: 1px solid white;
+    line-height: 40px;
 }
 .section-6 li a{
     text-decoration: none;
@@ -338,13 +340,13 @@
 .section-6 .segment_1 p{
      color: white;
      font-size: 0.85em;
-     margin: 10% 0;
+     margin: 11% 0;
      line-height: 25px;
 }
 .section-6 .segment_1 li{
-    margin-right: 15px;
+    margin-right: 20px;
     list-style: none;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 .section-6 .segment_1 a{
     text-decoration: none;
@@ -367,12 +369,11 @@
 .section-6 .segment_4 input[type=email]{
     display: block;
     width: 250px;
-    text-align: center;
     border: none;
     margin: 35px 0;
     color: white;
     background-color: transparent;
-    padding-bottom: 5px;
+    padding: 8px 0 5px 0;
     border-bottom: 1.5px solid gray;
 }
 .section-6 .segment_4 .btn1{
