@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+                                                     /*Section 1*/
+.section-1{
+    background: black;
+    height: 10vh;
+    width: 100%;
+}
+                                                /*Section 1 navbar*/
+
+#my-nav{
+    background-color: rgba(0,0,0,0) !important;
+    line-height: 40px;
+}
+@media screen and (max-width : 989px){
+    #my-nav{
+        background-color: black !important;
+    }
+}
+#my-nav.scrolled{
+    background-color: black !important;
+    transition: 0.5s ease;
+}
+.navbar-nav{
+    line-height: 20px;
+}
+.navbar-brand , .nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: rgb(228, 42, 104) !important;
+    font-size: 1.4em !important;
+    font-weight: bolder;
+}
+.nav-item{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.nav-link.active ,.nav-link:hover{
+    border-bottom: 1.5px solid white;
+}
+.section-1 .fa-search{
+    color: white;
+}
+
+                                            /*Section 2*/
+
+.section-2 .first_para{
+    padding: 5% 0;
+    color: black;
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+}
+                                            /* Section 2 images */
+.section-2{
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    padding-bottom: 5%;
+}
+.section-2 .card-img-overlay{
+    opacity: 0;
+    transition: 1s;
+}
+.section-2 .card-img-overlay img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.section-2 .card-img-overlay:hover{
+    opacity: 1;
+}
+.fig-caption{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fig-caption:hover p , .fig-caption:hover h6{
+    opacity: 0;
+}
+.fig-caption h6{
+    font-size: 1.8em;
+    color: red;
+}
+.fig-caption a{
+    position: absolute;
+    transform: translateY(-50%);
+    border: 2px solid black;
+    color: black;
+    padding: 2px 5px;
+    text-decoration: none;
+    opacity: 0;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}
+.fig-caption a:hover{
+    background-color: black;
+    color: white;
+}
+.fig-caption:hover a{
+    opacity: 1;
+    transform: translateY(0);
+    text-decoration: none;
+}
+.segment_2 .fig-caption p{
+    font-size: 1em;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+                                    /* footer Section 3*/
+ .section-3{
+    background-color: black;
+    padding: 5% 2% 2% !important;
+}
+.section-3 .footer-heading{
+    margin: 2% 0;
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.section-3 .footer_ul{
+    margin-top: 12%;
+}
+.section-3 .footer_li{
+    list-style: none;
+    margin-bottom: 5%;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+}
+.section-3 li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.section-3 li a:hover{
+    color: white;
+}
+                                                /* segment_1*/
+.section-3 .segment_1 .footer-navbar-brand{
+    color: rgb(228, 42, 104) !important;
+    font-size: 1.5em !important;
+    font-weight: bolder;
+}
+.section-3 .segment_1 p{
+     color: white;
+     font-size: 0.85em;
+     margin: 11% 0;
+     line-height: 25px;
+}
+.section-3 .segment_1 li{
+    margin-right: 20px;
+    list-style: none;
+    font-size: 2em;
+}
+.section-3 .segment_1 a{
+    text-decoration: none;
+    color: gray;
+}
+.section-3 .segment_1 a:hover{
+    color: white;
+}
+                                                /* segment_2*/
+.section-3 .segment_2{
+    color: white;
+}
+
+                                                /* segment_4*/
+
+.section-3 .segment_4 input[type=email]::placeholder{
+    color: gray;
+    
+}
+.section-3 .segment_4 input[type=email]{
+    display: block;
+    width: 250px;
+    border: none;
+    margin: 35px 0;
+    color: white;
+    background-color: transparent;
+    padding: 8px 0 5px 0;
+    border-bottom: 1.5px solid gray;
+}
+.section-3 .segment_4 .btn1{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 7px 60px;
+    transition: 0.4s ease-in-out;
+}
+.section-3 .segment_4 .btn1:hover{
+    background: black;
+    color:white;
+    border: 2px solid white;
+}
+                                   /* footer bottom text */
+.section-3 .footer_bottom-text{
+    color: white;
+    text-decoration: none;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
