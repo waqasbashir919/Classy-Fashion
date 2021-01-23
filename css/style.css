@@ -232,9 +232,9 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-}
-.section-4 .row{
-    padding-top: 9%;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
 }
 .section-4 .text-leftt h2{
     font-size: 3.5em;
