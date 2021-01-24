@@ -124,7 +124,18 @@
 .section-2 .my-info a:hover{
     color: blue !important;
 }
- 
+                                    /* responsive media queries*/
+@media(max-width:420px){
+    .section-2 .my-info h1{
+        font-size: 8vw;
+    }
+    .section-2 .my-info span{
+        font-size: 5vw
+    }
+    .section-2 .my-info a{
+        font-size: 4vw;
+    }
+}
                                         /* footer Section 3*/
 .section-6{
     background-color: black;
